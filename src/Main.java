@@ -2,25 +2,27 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+
         int age = 15;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний.");
         } else {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать.");
+        }
 
             int temperature = 18;
             if (temperature <= 5) {
                 System.out.println();
                 System.out.println("Сегодня на улице " + temperature + " градусов, надень шапку.");
-            } if (temperature >= 5) {
-                System.out.println( );
+            } else {
+                System.out.println();
                 System.out.println("Сегодня на улице " + temperature + " градусов, можешь идти без шапки.");
-
+            }
                 int speed = 48;
                 if (speed > 60) {
                     System.out.println( );
                     System.out.println("Если скорость " + speed + " км/час , то придется заплатить штраф.");
-                } if (speed <= 60) {
+                } else {
                     System.out.println( );
                     System.out.println("Если скорость " + speed + " км/час можно ездить спокойно.");
                 }
@@ -29,13 +31,13 @@ public class Main {
                 if (peopleAge >= 2 && peopleAge <= 6) {
                     System.out.println( );
                     System.out.println("Если возраст человека равен " + peopleAge + ", то ему нужно ходить в садик.");
-                } if (peopleAge >= 7 && peopleAge <= 17) {
+                } else if (peopleAge >= 7 && peopleAge <= 17) {
                     System.out.println( );
                     System.out.println("Если возраст человека равен " + peopleAge + ", то ему нужно ходить в школу.");
-                } if (peopleAge >= 18 && peopleAge<= 24) {
+                } else if (peopleAge >= 18 && peopleAge<= 24) {
                     System.out.println( );
                     System.out.println("Если возрастчеловека равен " + peopleAge + ", то ему нужно ходить в университет.");
-                } if (peopleAge > 24) {
+                } else  {
                     System.out.println( );
                     System.out.println("Если возраст человека равен " + peopleAge + ", то ему нужно ходить на работу.");
                 }
@@ -86,5 +88,4 @@ public class Main {
 
         }
 
-    }
-}
+
